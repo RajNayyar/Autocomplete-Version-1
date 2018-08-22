@@ -29,11 +29,12 @@ function suggestion(name){
                 }
             }
         }
+       function onClickBlur() {
+          document.getElementById("list").innerHTML="";
+       }
        function display(name) {
            document.getElementById("type-here").value = name;
            document.getElementById("list").innerHTML="";
        }
-       function onClickBlur() {
-          document.getElementById("list").innerHTML="";
-       }
+       
 
