@@ -1,0 +1,56 @@
+body {
+    font-weight: lighter;
+    font-family: sans-serif;
+    height: 900px;
+}
+section {
+    margin: 0 auto;
+    width: 1024px;
+}
+#input-box {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 auto;
+    display: block;
+}
+#type-here {
+    width: 100%;
+    height: 33px;
+}
+#list {
+    width: 99.5%;
+    margin-top: 1px;
+    min-height: 0px;
+    max-height: 204px;
+    border-bottom: 0.1px solid;
+    border-left: 0.1px solid;
+    border-right: 0.1px solid;
+    overflow: auto;
+    padding-left: 5px;
+}
+li {
+    height: 30px;
+    padding-top: 10px;
+    text-align: left;
+}
+li:hover {
+    background-color: lightgrey;
+    height: 30px;
+}
+.tavisca {
+    text-align: center;
+    padding-top: 180px;
+}
+
+.search-area{
+    display: flex;
+    position: relative;
+}
+#clear {
+    position: absolute;
+    font-size: 20px;
+    right: 0px;
+    background-color: transparent;
+    border: 0px;
+    padding-top: 5px;
+}
