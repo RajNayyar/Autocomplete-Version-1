@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body onclick="onClickBlur()">
+    <section>
+        <div class = "tavisca"><img src="tavisca.png"></div>
+        <div id="input-box">
+            <div class="search-area"><input type="text" placeholder="Your text here" id="type-here" onkeyup="suggestion(this.value, event)"><button onclick="clearup()" id="clear"></button></div>
+            <div id="list-encloser">
+            <ul id="list" class="lists" type="none">
+            </ul>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./main.js"></script>
+</html>
